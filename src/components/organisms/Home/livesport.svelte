@@ -1,5 +1,5 @@
 <script lang="ts">
-    import { slide, fade } from 'svelte/transition';
+    import { slide } from 'svelte/transition';
     import Heading from "../../atoms/heading.svelte";
     import one from '../../../public/home/menu/cricket.svg';
     import three from '../../../public/home/menu/soccer.svg';

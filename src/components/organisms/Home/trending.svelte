@@ -8,7 +8,35 @@
   import topcards from  '../../../public/icons/topcards.svg';
   import topcasino from '../../../public/icons/topcasino.svg';
   import graytv from '../../../public/icons/gray tv.svg';
-  
+  // betcards
+  import betcard1 from '../../../public/home/Bet Cards/betcard1.jpg';
+  import betcard2 from '../../../public/home/Bet Cards/betcard2.jpg';
+  import betcard3 from '../../../public/home/Bet Cards/betcard3.jpg';
+  import betcard4 from '../../../public/home/Bet Cards/betcard4.jpg';
+  import betcard5 from '../../../public/home/Bet Cards/betcard5.jpg';
+  import betcard6 from '../../../public/home/Bet Cards/betcard6.jpg';
+  import betcard7 from '../../../public/home/Bet Cards/betcard7.jpg';
+  import betcard8 from '../../../public/home/Bet Cards/betcard8.jpg';
+  import betcard9 from '../../../public/home/Bet Cards/betcard9.jpg';
+  import betcard10 from '../../../public/home/Bet Cards/betcard10.jpg';
+  import betcard11 from '../../../public/home/Bet Cards/betcard11.jpg';
+  import betcard12 from '../../../public/home/Bet Cards/betcard12.jpg';
+  import betcard13 from '../../../public/home/Bet Cards/betcard13.jpg';
+  import betcard14 from '../../../public/home/Bet Cards/betcard14.jpg';
+  // gamming cards
+  import gamming1 from '../../../public/home/Game Cards/game1.jpg';
+  import gamming2 from '../../../public/home/Game Cards/game2.jpg';
+  import gamming3 from '../../../public/home/Game Cards/game3.jpg';
+  import gamming4 from '../../../public/home/Game Cards/game4.jpg';
+  import gamming5 from '../../../public/home/Game Cards/game5.jpg';
+  import gamming6 from '../../../public/home/Game Cards/game6.jpg';
+  import gamming7 from '../../../public/home/Game Cards/game7.jpg';
+  import gamming8 from '../../../public/home/Game Cards/game8.jpg';
+  import gamming9 from '../../../public/home/Game Cards/game9.jpg';
+  import gamming10 from '../../../public/home/Game Cards/game10.jpg';
+  import gamming11 from '../../../public/home/Game Cards/game11.jpg';
+  import gamming12 from '../../../public/home/Game Cards/game11.jpg';
+  import gamming13 from '../../../public/home/Game Cards/game11.jpg';
     // Create an array of objects to store the icon names and their respective labels
     let items = [
       { name: "Lobby", icon: "lobby" },
@@ -18,37 +46,37 @@
     ];
 
     const betcardsData = [
-      { "image": '/src/public/home/Bet Cards/betcard1.jpg', "text": "60 players" },
-      { "image": '/src/public/home/Bet Cards/betcard2.jpg', "text": "45 players" },
-      { "image": '/src/public/home/Bet Cards/betcard3.jpg', "text": "75 players" },
-      { "image": '/src/public/home/Bet Cards/betcard4.jpg', "text": "30 players" },
-      { "image": '/src/public/home/Bet Cards/betcard5.jpg', "text": "50 players" },
-      { "image": '/src/public/home/Bet Cards/betcard6.jpg', "text": "85 players" },
-      { "image": '/src/public/home/Bet Cards/betcard7.jpg', "text": "40 players" },
-      { "image": '/src/public/home/Bet Cards/betcard8.jpg', "text": "60 players" },
-      { "image": '/src/public/home/Bet Cards/betcard9.jpg', "text": "95 players" },
-      { "image": '/src/public/home/Bet Cards/betcard10.jpg', "text": "70 players" },
-      { "image": '/src/public/home/Bet Cards/betcard11.jpg', "text": "90 players" },
-      { "image": '/src/public/home/Bet Cards/betcard12.jpg', "text": "65 players" },
-      { "image": '/src/public/home/Bet Cards/betcard13.jpg', "text": "80 players" },
-      { "image": '/src/public/home/Bet Cards/betcard14.jpg', "text": "55 players" }
+      { "image": betcard1, "text": "60 players" },
+      { "image": betcard2, "text": "45 players" },
+      { "image": betcard3, "text": "75 players" },
+      { "image": betcard4, "text": "30 players" },
+      { "image": betcard5, "text": "50 players" },
+      { "image": betcard6, "text": "85 players" },
+      { "image": betcard7, "text": "40 players" },
+      { "image": betcard8, "text": "60 players" },
+      { "image": betcard9, "text": "95 players" },
+      { "image": betcard10, "text": "70 players" },
+      { "image": betcard11, "text": "90 players" },
+      { "image": betcard12, "text": "65 players" },
+      { "image": betcard13, "text": "80 players" },
+      { "image": betcard14, "text": "55 players" }
     ];
    
     // gaming
     const gammingcard = [
-      { "image": '/src/public/home/Game Cards/game1.jpg', "text": "60 players" },
-      { "image": '/src/public/home/Game Cards/game2.jpg', "text": "45 players" },
-      { "image": '/src/public/home/Game Cards/game3.jpg', "text": "75 players" },
-      { "image": '/src/public/home/Game Cards/game4.jpg', "text": "30 players" },
-      { "image": '/src/public/home/Game Cards/game5.jpg', "text": "50 players" },
-      { "image": '/src/public/home/Game Cards/game6.jpg', "text": "85 players" },
-      { "image": '/src/public/home/Game Cards/game7.jpg', "text": "40 players" },
-      { "image": '/src/public/home/Game Cards/game8.jpg', "text": "60 players" },
-      { "image": '/src/public/home/Game Cards/game9.jpg', "text": "95 players" },
-      { "image": '/src/public/home/Game Cards/game10.jpg', "text": "70 players" },
-      { "image": '/src/public/home/Game Cards/game11.jpg', "text": "90 players" },
-      { "image": '/src/public/home/Game Cards/game12.jpg', "text": "65 players" },
-      { "image": '/src/public/home/Game Cards/game13.jpg', "text": "80 players" }
+      { "image": gamming1, "text": "60 players" },
+      { "image": gamming2, "text": "45 players" },
+      { "image": gamming3, "text": "75 players" },
+      { "image": gamming4, "text": "30 players" },
+      { "image": gamming5, "text": "50 players" },
+      { "image": gamming6, "text": "85 players" },
+      { "image": gamming7, "text": "40 players" },
+      { "image": gamming8, "text": "60 players" },
+      { "image": gamming9, "text": "95 players" },
+      { "image": gamming10, "text": "70 players" },
+      { "image": gamming11, "text": "90 players" },
+      { "image": gamming12, "text": "65 players" },
+      { "image": gamming13, "text": "80 players" }
     ];
     // Object to hold dynamically imported image paths
     let images: { [key: string]: string } = {};

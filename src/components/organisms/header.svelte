@@ -8,7 +8,18 @@
   import moon from '../../public/icons/moon.svg';
   import { isSidebarOpen, submenu } from '$lib/Store/store';
   import Authmodel from '../molecules/authmodel.svelte';
-
+  import menu1 from '../../public/home/menu/fire-svgrepo-com.svg';
+  import menu2 from '../../public/home/menu/multimarket.svg';
+  import menu3 from '../../public/home/menu/cricket.svg';
+  import menu4 from '../../public/home/menu/soccer.svg';
+  import menu5 from '../../public/home/menu/tennies.svg';
+  import menu6 from '../../public/home/menu/india.svg';
+import menu7 from '../../public/home/menu/Aviator Icon.svg';
+import menu8 from '../../public/home/menu/aura.svg';
+import menu9 from '../../public/home/menu/blast rocket.svg';
+import menu10 from '../../public/home/menu/india.svg';
+import menu11 from '../../public/home/menu/blast rocket.svg';
+import menu12 from '../../public/home/menu/india.svg'
   // Manage Auth Modal State
   const isOpen = writable(false);
   let Authmode:string='login';
@@ -20,21 +31,21 @@
   }
 
   const menu: MenuItem[] = [
-    { image: '/src/public/home/menu/fire-svgrepo-com.svg', label: 'In Play', msg: '' },
-    { image: '/src/public/home/menu/multimarket.svg', label: 'Multi market', msg: '' },
-    { image: '/src/public/home/menu/cricket.svg', label: 'Cricket', msg: '' },
-    { image: '/src/public/home/menu/soccer.svg', label: 'Soccer', msg: '' },
-    { image: '/src/public/home/menu/tennies.svg', label: 'Tennis', msg: '' },
-    { image: '/src/public/home/menu/india.svg', label: 'Casino Games', msg: '' }
+    { image: menu1, label: 'In Play', msg: '' },
+    { image: menu2, label: 'Multi market', msg: '' },
+    { image: menu3, label: 'Cricket', msg: '' },
+    { image: menu4, label: 'Soccer', msg: '' },
+    { image: menu5, label: 'Tennis', msg: '' },
+    { image: menu6, label: 'Casino Games', msg: '' }
   ];
 
   const submenuItems: MenuItem[] = [
-    { image: '/src/public/home/menu/Aviator Icon.svg', label: 'Aviator', msg: 'HOT' },
-    { image: '/src/public/home/menu/aura.svg', label: 'Aura', msg: '' },
-    { image: '/src/public/home/menu/blast rocket.svg', label: 'Blast', msg: 'HOT' },
-    { image: '/src/public/home/menu/india.svg', label: 'Indian Poker', msg: '' },
-    { image: '/src/public/home/menu/blast rocket.svg', label: 'AE SEXY', msg: '' },
-    { image: '/src/public/home/menu/india.svg', label: 'Indian Poker 2', msg: '' }
+    { image: menu7, label: 'Aviator', msg: 'HOT' },
+    { image: menu8, label: 'Aura', msg: '' },
+    { image: menu9, label: 'Blast', msg: 'HOT' },
+    { image: menu10, label: 'Indian Poker', msg: '' },
+    { image: menu11, label: 'AE SEXY', msg: '' },
+    { image: menu12, label: 'Indian Poker 2', msg: '' }
   ];
 
   // Menu handler to toggle submenu

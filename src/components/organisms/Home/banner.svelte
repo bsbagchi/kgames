@@ -1,7 +1,9 @@
 <script>
-
+    import one from '../../../public/home/banner/img1.jpeg'
+    import two from '../../../public/home/banner/img2.jpeg';
+    import three from '../../../public/home/banner/img3.jpeg';
   import Heading from "../../atoms/heading.svelte";
-  const imglink=['/src/public/home/banner/img1.jpeg','/src/public/home/banner/img2.jpeg','/src/public/home/banner/img3.jpeg'];
+  const imglink=[one,two,three];
 </script>
 
 
