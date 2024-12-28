@@ -20,21 +20,21 @@
   }
 
   const menu: MenuItem[] = [
-    { image: '/src/public/home/menu/fire-svgrepo-com.svg', label: 'In Play', msg: '' },
-    { image: '/src/public/home/menu/multimarket.svg', label: 'Multi market', msg: '' },
-    { image: '/src/public/home/menu/cricket.svg', label: 'Cricket', msg: '' },
-    { image: '/src/public/home/menu/soccer.svg', label: 'Soccer', msg: '' },
-    { image: '/src/public/home/menu/tennies.svg', label: 'Tennis', msg: '' },
-    { image: '/src/public/home/menu/india.svg', label: 'Casino Games', msg: '' }
+    { image: '/home/menu/fire-svgrepo-com.svg', label: 'In Play', msg: '' },
+    { image: '/home/menu/multimarket.svg', label: 'Multi market', msg: '' },
+    { image: '/home/menu/cricket.svg', label: 'Cricket', msg: '' },
+    { image: '/home/menu/soccer.svg', label: 'Soccer', msg: '' },
+    { image: '/home/menu/tennies.svg', label: 'Tennis', msg: '' },
+    { image: '/home/menu/india.svg', label: 'Casino Games', msg: '' }
   ];
 
   const submenuItems: MenuItem[] = [
-    { image: '/src/public/home/menu/Aviator Icon.svg', label: 'Aviator', msg: 'HOT' },
-    { image: '/src/public/home/menu/aura.svg', label: 'Aura', msg: '' },
-    { image: '/src/public/home/menu/blast rocket.svg', label: 'Blast', msg: 'HOT' },
-    { image: '/src/public/home/menu/india.svg', label: 'Indian Poker', msg: '' },
-    { image: '/src/public/home/menu/blast rocket.svg', label: 'AE SEXY', msg: '' },
-    { image: '/src/public/home/menu/india.svg', label: 'Indian Poker 2', msg: '' }
+    { image: '/home/menu/Aviator Icon.svg', label: 'Aviator', msg: 'HOT' },
+    { image: '/home/menu/aura.svg', label: 'Aura', msg: '' },
+    { image: '/home/menu/blast rocket.svg', label: 'Blast', msg: 'HOT' },
+    { image: '/home/menu/india.svg', label: 'Indian Poker', msg: '' },
+    { image: '/home/menu/blast rocket.svg', label: 'AE SEXY', msg: '' },
+    { image: '/home/menu/india.svg', label: 'Indian Poker 2', msg: '' }
   ];
 
   // Menu handler to toggle submenu
