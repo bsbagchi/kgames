@@ -13,49 +13,49 @@
       odds: { first: 1.22, second: 1.72 },
       status: "Live",
       matchTime: "22 Dec 2024 (07:00 PM)",
-      logo: "/path/to/team-logo-1.svg",  // Logo image path
+      logo: '/path/to/team-logo-1.svg',  // Logo image path
     },
     {
       name: {first:"Borcelle",sec:"Rimbero"},
       odds: { first: 1.50, second: 2.10 },
       status: "Live",
       matchTime: "23 Dec 2024 (09:00 PM)",
-      logo: "/path/to/team-logo-2.svg",  // Logo image path
+      logo: '/path/to/team-logo-2.svg',  // Logo image path
     },
     {
       name:{first:"Borcelle",sec:"Rimbero"},
       odds: { first: 1.35, second: 2.00 },
       status: "Live",
       matchTime: "24 Dec 2024 (10:00 PM)",
-      logo: "/path/to/team-logo-3.svg",
+      logo: '/path/to/team-logo-3.svg',
     },
     {
       name:{first:"Borcelle",sec:"Rimbero"},
       odds: { first: 1.50, second: 1.95 },
       status: "Live",
       matchTime: "25 Dec 2024 (06:00 PM)",
-      logo: "/path/to/team-logo-4.svg",
+      logo: '/path/to/team-logo-4.svg',
     },
     {
       name:{first:"Borcelle",sec:"Rimbero"},
       odds: { first: 1.60, second: 2.40 },
       status: "Live",
       matchTime: "26 Dec 2024 (08:00 PM)",
-      logo: "/path/to/team-logo-5.svg",
+      logo: '/path/to/team-logo-5.svg',
     },
     {
       name: {first:"Borcelle",sec:"Rimbero"},
       odds: { first: 1.40, second: 1.85 },
       status: "Live",
       matchTime: "27 Dec 2024 (07:30 PM)",
-      logo: "/path/to/team-logo-6.svg",
+      logo: '/path/to/team-logo-6.svg',
     },
     {
       name: {first:"Borcelle",sec:"Rimbero"},
       odds: { first: 1.75, second: 2.30 },
       status: "Live",
       matchTime: "28 Dec 2024 (09:15 PM)",
-      logo: "/path/to/team-logo-7.svg",
+      logo: '/path/to/team-logo-7.svg',
     }
   ];
 
