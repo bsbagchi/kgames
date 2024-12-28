@@ -18,37 +18,37 @@
     ];
 
     const betcardsData = [
-      { "image": "src/public/home/Bet Cards/betcard1.jpg", "text": "60 players" },
-      { "image": "src/public/home/Bet Cards/betcard2.jpg", "text": "45 players" },
-      { "image": "src/public/home/Bet Cards/betcard3.jpg", "text": "75 players" },
-      { "image": "src/public/home/Bet Cards/betcard4.jpg", "text": "30 players" },
-      { "image": "src/public/home/Bet Cards/betcard5.jpg", "text": "50 players" },
-      { "image": "src/public/home/Bet Cards/betcard6.jpg", "text": "85 players" },
-      { "image": "src/public/home/Bet Cards/betcard7.jpg", "text": "40 players" },
-      { "image": "src/public/home/Bet Cards/betcard8.jpg", "text": "60 players" },
-      { "image": "src/public/home/Bet Cards/betcard9.jpg", "text": "95 players" },
-      { "image": "src/public/home/Bet Cards/betcard10.jpg", "text": "70 players" },
-      { "image": "src/public/home/Bet Cards/betcard11.jpg", "text": "90 players" },
-      { "image": "src/public/home/Bet Cards/betcard12.jpg", "text": "65 players" },
-      { "image": "src/public/home/Bet Cards/betcard13.jpg", "text": "80 players" },
-      { "image": "src/public/home/Bet Cards/betcard14.jpg", "text": "55 players" }
+      { "image": "/src/public/home/Bet Cards/betcard1.jpg", "text": "60 players" },
+      { "image": "/src/public/home/Bet Cards/betcard2.jpg", "text": "45 players" },
+      { "image": "/src/public/home/Bet Cards/betcard3.jpg", "text": "75 players" },
+      { "image": "/src/public/home/Bet Cards/betcard4.jpg", "text": "30 players" },
+      { "image": "/src/public/home/Bet Cards/betcard5.jpg", "text": "50 players" },
+      { "image": "/src/public/home/Bet Cards/betcard6.jpg", "text": "85 players" },
+      { "image": "/src/public/home/Bet Cards/betcard7.jpg", "text": "40 players" },
+      { "image": "/src/public/home/Bet Cards/betcard8.jpg", "text": "60 players" },
+      { "image": "/src/public/home/Bet Cards/betcard9.jpg", "text": "95 players" },
+      { "image": "/src/public/home/Bet Cards/betcard10.jpg", "text": "70 players" },
+      { "image": "/src/public/home/Bet Cards/betcard11.jpg", "text": "90 players" },
+      { "image": "/src/public/home/Bet Cards/betcard12.jpg", "text": "65 players" },
+      { "image": "/src/public/home/Bet Cards/betcard13.jpg", "text": "80 players" },
+      { "image": "/src/public/home/Bet Cards/betcard14.jpg", "text": "55 players" }
     ];
    
     // gaming
     const gammingcard = [
-      { "image": "src/public/home/Game Cards/game1.jpg", "text": "60 players" },
-      { "image": "src/public/home/Game Cards/game2.jpg", "text": "45 players" },
-      { "image": "src/public/home/Game Cards/game3.jpg", "text": "75 players" },
-      { "image": "src/public/home/Game Cards/game4.jpg", "text": "30 players" },
-      { "image": "src/public/home/Game Cards/game5.jpg", "text": "50 players" },
-      { "image": "src/public/home/Game Cards/game6.jpg", "text": "85 players" },
-      { "image": "src/public/home/Game Cards/game7.jpg", "text": "40 players" },
-      { "image": "src/public/home/Game Cards/game8.jpg", "text": "60 players" },
-      { "image": "src/public/home/Game Cards/game9.jpg", "text": "95 players" },
-      { "image": "src/public/home/Game Cards/game10.jpg", "text": "70 players" },
-      { "image": "src/public/home/Game Cards/game11.jpg", "text": "90 players" },
-      { "image": "src/public/home/Game Cards/game12.jpg", "text": "65 players" },
-      { "image": "src/public/home/Game Cards/game13.jpg", "text": "80 players" }
+      { "image": "/src/public/home/Game Cards/game1.jpg", "text": "60 players" },
+      { "image": "/src/public/home/Game Cards/game2.jpg", "text": "45 players" },
+      { "image": "/src/public/home/Game Cards/game3.jpg", "text": "75 players" },
+      { "image": "/src/public/home/Game Cards/game4.jpg", "text": "30 players" },
+      { "image": "/src/public/home/Game Cards/game5.jpg", "text": "50 players" },
+      { "image": "/src/public/home/Game Cards/game6.jpg", "text": "85 players" },
+      { "image": "/src/public/home/Game Cards/game7.jpg", "text": "40 players" },
+      { "image": "/src/public/home/Game Cards/game8.jpg", "text": "60 players" },
+      { "image": "/src/public/home/Game Cards/game9.jpg", "text": "95 players" },
+      { "image": "/src/public/home/Game Cards/game10.jpg", "text": "70 players" },
+      { "image": "/src/public/home/Game Cards/game11.jpg", "text": "90 players" },
+      { "image": "/src/public/home/Game Cards/game12.jpg", "text": "65 players" },
+      { "image": "/src/public/home/Game Cards/game13.jpg", "text": "80 players" }
     ];
     // Object to hold dynamically imported image paths
     let images: { [key: string]: string } = {};
@@ -116,7 +116,7 @@
   <!-- Top Casino Games -->
 
   <div class="px-[5%] pb-2">
-    <div class="border bg-gray-200 dark:bg-[--primary] rounded-lg px-2 md:px-2 md:px-[1%] border-[--Border-Light]">
+    <div class="border bg-gray-200 dark:bg-[--primary] rounded-lg px-2 max-sm:px-2 md:px-[1%] border-[--Border-Light]">
         <div >
             <div class="flex justify-between py-2">
             <div class="flex "><img src={diamond} alt=""> <div class="px-1"><Subheading  text={'Top Casino Games'}/></div></div>

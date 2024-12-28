@@ -11,12 +11,12 @@
     <div class="flex gap-3 w-fit py-3 ">
         {#each imglink as path }
         <div class="rounded-lg snap-center  md:snap-start h-[200px] md:h-[230px]  w-[87.4vw] md:w-[43.5vw] lg:w-[29vw] border-t-4 border-l-[1px] border-r-[1px] border-red-600   shadow-xl hover:shadow-blue-500 overflow-hidden">
-        <img class="h-full w-full"
+            <img class="h-full w-full"
         src={path}
         alt="Descriptive text here"
         loading="lazy"
         decoding="async"
-        style=";  "
+        style=" "
         />
         
     </div>
