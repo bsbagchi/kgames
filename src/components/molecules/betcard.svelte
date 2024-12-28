@@ -11,7 +11,7 @@
       betcards = betcardsData.map((card) => {
         try {
           // Construct the full image path using the BASE_URL
-          const loadedImage = import.meta.env.BASE_URL + card.image;
+          const loadedImage = card.image;
           return {
             loadedImage, // We only need the loadedImage
             text: card.text // We also need to keep the text for player count

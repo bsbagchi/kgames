@@ -2,8 +2,8 @@
     import { slide, fade } from 'svelte/transition';
     import uparrow from '../../public/icons/arrowgray.svg';
     import { isSidebarOpen } from '$lib/Store/store';
-    const menu=[{image:'src/public/home/menu/fire-svgrepo-com.svg',lable:'In Play'}, {image:'src/public/home/menu/multimarket.svg',lable:'Multi market'}, {image:'src/public/home/menu/cricket.svg',lable:'Cricket'}, {image:'src/public/home/menu/soccer.svg',lable:'Soccer'}, {image:'src/public/home/menu/tennies.svg',lable:'Tennis'}];
-    const submenu=[{image:'src/public/home/menu/Aviator Icon.svg',lable:'Aviator'},{image:'src/public/home/menu/aura.svg',lable:'Aura'},{image:'src/public/home/menu/blast rocket.svg',lable:'Blast'},{image:'src/public/home/menu/india.svg',lable:'Indian Pocker'},{image:'src/public/home/menu/blast rocket.svg',lable:'AE SEXY'},{image:'src/public/home/menu/india.svg',lable:'Indian Pocker 2'}];
+    const menu=[{image:'/src//public/home/menu/fire-svgrepo-com.svg',lable:'In Play'}, {image:'/src//public/home/menu/multimarket.svg',lable:'Multi market'}, {image:'/src//public/home/menu/cricket.svg',lable:'Cricket'}, {image:'/src//public/home/menu/soccer.svg',lable:'Soccer'}, {image:'/src//public/home/menu/tennies.svg',lable:'Tennis'}];
+    const submenu=[{image:'/src//public/home/menu/Aviator Icon.svg',lable:'Aviator'},{image:'/src//public/home/menu/aura.svg',lable:'Aura'},{image:'/src//public/home/menu/blast rocket.svg',lable:'Blast'},{image:'/src//public/home/menu/india.svg',lable:'Indian Pocker'},{image:'/src//public/home/menu/blast rocket.svg',lable:'AE SEXY'},{image:'/src//public/home/menu/india.svg',lable:'Indian Pocker 2'}];
 </script>
 
 {#if $isSidebarOpen}
@@ -25,20 +25,20 @@
         {#each menu as items, i}
         <div style="box-shadow: 0px 0px 12px 0px #706C93 inset;" class="h-9 md:h-12 rounded bg-[--Primary-Light] px-3 border border-[--Secondary] flex items-center  transition-all duration-300 hover:bg-opacity-80" 
              transition:slide={{delay: i * 50, duration: 300}}>
-            <img src={import.meta.env.BASE_URL + items.image} alt={items.lable} class="md:h-7 transition-transform duration-300 hover:scale-110">
+            <img src={ items.image} alt={items.lable} class="md:h-7 transition-transform duration-300 hover:scale-110">
             <h1 class=" md:text-xl px-2">{items.lable}</h1>
         </div>
         {/each}
         <div style="box-shadow: 0px 0px 12px 0px #706C93 inset;" class="p-3 bg-[--Secondary] rounded">
         <div  class="space-y-2 ">
             <div class="flex">
-                <img src={import.meta.env.BASE_URL + 'src/public/home/menu/india.svg'} alt='' class="md:h-8 transition-transform duration-300 hover:scale-110">
+                <img src={'/src//public/home/menu/india.svg'} alt='' class="md:h-8 transition-transform duration-300 hover:scale-110">
              <h1 class=" md:text-xl  px-2">Casino Live</h1>
             </div>
         {#each submenu as items,i}
         <div  class="h-8 md:h-12 text-sm rounded bg-[--primary] px-3 border border-[--Secondary] flex items-center  transition-all duration-300 hover:bg-opacity-80" 
              transition:slide={{delay: i * 50, duration: 300}}>
-             <img src={import.meta.env.BASE_URL + items.image} alt={items.lable} class="md:h-7 transition-transform duration-300 hover:scale-110">
+             <img src={items.image} alt={items.lable} class="md:h-7 transition-transform duration-300 hover:scale-110">
              <h1 class=" md:text-xl px-2">{items.lable}</h1>
             </div>
         {/each}

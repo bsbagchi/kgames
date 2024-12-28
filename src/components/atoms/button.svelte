@@ -8,6 +8,7 @@
 
   // Define the handler function type
   export let handel: () => void = () => {};
+
 </script>
 
 <!-- Button Element -->
@@ -19,7 +20,7 @@
   class="px-2 max-sm:text-sm md:px-5 shrink-0 h-9 md:h-10 w-fit rounded-lg border-[--Border] flex items-center justify-center whitespace-nowrap"
 >
   <!-- Optional Image -->
-  <img class="h-6" src={import.meta.env.BASE_URL + image1} alt="" />
+  <img class="h-6" src={image1} alt="" />
 
   <!-- Button Text -->
   <span class="bg-transparent text-white px-2">{text}</span>
