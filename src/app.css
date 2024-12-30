@@ -1,0 +1,79 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+
+:root{
+    --bg-body: #201c32;
+
+    --primary: #2A2541;
+    --Primary-Light: #413C5D;
+    --Secondary: #595478;
+    --Secondary-Light: #706C93;
+    
+    --Accent: #F55C5C;
+    --Accent-Alt: #FFDD15;
+
+    --Border: #4d4d4d;
+    --Border-Light: #808080;
+    --white:#ffffff;
+    --purple:#D1A7E3;
+    --blue: #72bbef;
+    --blue-hover: #4fa1dc;
+    --pink: #f994ba;
+    --pink-hover: #e16f9a;
+}
+
+/* inner shadow */
+.shadow-box{
+    -webkit-box-shadow: inset -5px 1px 67px -32px rgb(206, 133, 237);
+-moz-box-shadow: inset -5px 1px 67px -32px rgb(217, 153, 245);
+box-shadow: inset -5px 1px 67px -32px rgb(209, 167, 227);
+}
+
+.shadow-red{
+  box-shadow: 
+    inset 0 0px 12px rgba(236, 72, 153, 0.3),
+    inset 0 0px 6px rgba(236, 72, 153, 0.4);
+
+}
+
+.shadow-blue{
+  box-shadow: 
+    inset 0 0px 12px rgba(86, 137, 239, 0.3),
+    inset 0 0px 6px rgba(95, 139, 222, 0.4);
+
+}
+
+
+
+.shadow-gray{
+  box-shadow: 
+    inset -5px 1px 67px -32px rgba(105, 106, 107, 0.3),
+    inset -5px 1px 67px -32px rgba(96, 96, 96, 0.4);
+
+}
+
+.shadow-purple{
+  box-shadow: 
+    inset -5px 1px 67px -32px rgba(169, 112, 218, 0.3),
+    inset -5px 1px 67px -32px rgba(169, 112, 218, 0.3);
+
+}
+
+
+body{
+    background-color: var(--bg-body);
+}
+
+
+/* Hide Scrollbar */
+.scrollbar-hidden {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;     /* Firefox */
+  }
+  
+  .scrollbar-hidden::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Opera */
+  }
+  
